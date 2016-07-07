@@ -10,11 +10,18 @@ body{
 
 .main{
     text-align: center;
-    padding: 60px 240px;
+    padding: 60px 80px;
     display: inline-block;
     margin: 0 auto;
     margin-top: 150px;
-    border-radius: 4px;
+
+	-webkit-border-top-left-radius: 60px;
+	-webkit-border-top-right-radius: 60px;
+	-moz-border-radius-topleft: 60px;
+	-moz-border-radius-topright: 60px;
+	border-top-left-radius: 60px;
+	border-top-right-radius: 60px;
+
 
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#333333+0,0e0e0e+100 */
 	background: rgb(51,51,51); /* Old browsers */
@@ -27,7 +34,7 @@ body{
 
 .large-font{
 	font-size: 72px; 
-	letter-spacing: 3px; 
+	letter-spacing: -5px; 
 	text-transform: uppercase;
 }
 
